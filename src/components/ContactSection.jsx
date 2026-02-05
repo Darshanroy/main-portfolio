@@ -80,7 +80,9 @@ const ContactSection = () => {
                                 {/* Contact Info Cards */}
                                 <div className="space-y-4 mb-8">
                                     <motion.a
-                                        href="mailto:Darshankumar@gmail.com"
+                                        href="https://mail.google.com/mail/?view=cm&fs=1&to=Darshankumar@gmail.com"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         whileHover={{ x: 5, scale: 1.02 }}
                                         className="flex items-center gap-4 p-4 glass rounded-xl border border-white/10 hover:border-primary/50 transition-all group"
                                     >
@@ -146,7 +148,9 @@ const ContactSection = () => {
                                     </motion.a>
 
                                     <motion.a
-                                        href="mailto:Darshankumar@gmail.com"
+                                        href="https://mail.google.com/mail/?view=cm&fs=1&to=Darshankumar@gmail.com"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         whileHover={{ scale: 1.02 }}
                                         className="block text-center text-white/50 hover:text-white transition-colors font-mono text-sm py-2"
                                     >
